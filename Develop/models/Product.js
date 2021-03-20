@@ -11,7 +11,7 @@ Product.init(
   {
     // define columns
     id: {
-      type: DataTypes.INTENGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true
@@ -28,7 +28,7 @@ Product.init(
       }
     },
     stock: {
-      type: DataTypes.INTENGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 10,
       validate: {
@@ -37,7 +37,7 @@ Product.init(
     },
     // Creating foreign key to connect product table to category //
     category_id: {
-      type: DataTypes.INTENGER,
+      type: DataTypes.INTEGER,
       references: {
         model: 'category',
         key: 'id',
