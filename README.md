@@ -16,8 +16,11 @@ Because this application won’t be deployed, you’ll also need to provide a li
  
  # Installation
   The following necessary dependencies must be installed to run the application properly: 
+  
   clone the repo
+  
   npm install 
+  
   npm start
   
   
